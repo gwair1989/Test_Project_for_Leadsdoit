@@ -1,0 +1,37 @@
+PODS:
+  - FBSDKCoreKit (11.0.1):
+    - FBSDKCoreKit/Core (= 11.0.1)
+  - FBSDKCoreKit/Core (11.0.1):
+    - FBSDKCoreKit_Basics (~> 11.0.1)
+  - FBSDKCoreKit_Basics (11.0.1):
+    - FBSDKCoreKit_Basics/Basics (= 11.0.1)
+  - FBSDKCoreKit_Basics/Basics (11.0.1)
+  - YandexMobileAds/Dynamic (4.2.0):
+    - YandexMobileMetrica/Dynamic (< 4.0.0, >= 3.14.1)
+  - YandexMobileMetrica/Dynamic (3.17.0):
+    - YandexMobileMetrica/Dynamic/Core (= 3.17.0)
+    - YandexMobileMetrica/Dynamic/Crashes (= 3.17.0)
+  - YandexMobileMetrica/Dynamic/Core (3.17.0)
+  - YandexMobileMetrica/Dynamic/Crashes (3.17.0):
+    - YandexMobileMetrica/Dynamic/Core
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - YandexMobileAds/Dynamic (= 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - YandexMobileAds
+    - YandexMobileMetrica
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: 38c9e29a3f1436362acacff6486d3a28628c288f
+  FBSDKCoreKit_Basics: 06780a4a12e16596bde8406add02c6aa1bf38616
+  YandexMobileAds: ff8859cd73b0088e394efd61452d81d31d32fb29
+  YandexMobileMetrica: 9e713c16bb6aca0ba63b84c8d7b8b86d32f4ecc4
+
+PODFILE CHECKSUM: 264ef1fb1dee7ef2a44538231dff49dbf0a1e1e1
+
+COCOAPODS: 1.10.1
